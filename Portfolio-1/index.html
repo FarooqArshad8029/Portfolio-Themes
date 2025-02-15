@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hacker-themed portfolio showcasing skills, projects, and contact information.">
+  <meta name="keywords" content="portfolio, MERN stack, web developer, projects, skills">
+  <title>Hacker Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <canvas id="matrix"></canvas>
+    <div class="header-overlay"></div>
+    <div class="scanline"></div>
+    
+    <div class="profile">
+      <!-- <img src="assets/images/Formal Pic.jpg" alt="Your Name - Profile Picture" class="profile-img" loading="lazy"> -->
+      <h1 class="glitch" data-text="Farooq Arshad">Farooq Arshad</h1>
+      <p class="tagline"></p>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#about"><span>>_</span>About</a></li>
+        <li><a href="#skills"><span>$</span>Skills</a></li>
+        <li><a href="#projects"><span>#</span>Projects</a></li>
+        <li><a href="#contact"><span>//</span>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2 class="section-title glitch" data-text="About_Me">About_Me</h2>
+    <div class="about-content">
+      <p>
+        I'm a <span class="highlight">MERN Stack Developer</span> with a passion for building scalable and efficient web applications. 
+        My journey into coding started with a curiosity for solving problems and now I specialize in creating seamless user experiences 
+        and robust backend systems. When I'm not coding, you can find me exploring new technologies or contributing to open-source projects.
+      </p>
+      <p>
+        I thrive in environments where innovation and creativity are encouraged and I'm always eager to learn and grow as a developer.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2 class="section-title glitch" data-text="Skills">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <i class="fab fa-react"></i>
+        <h3>React.js</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 90%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-node-js"></i>
+        <h3>Node.js</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 85%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fas fa-database"></i>
+        <h3>MongoDB</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 80%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-js-square"></i>
+        <h3>JavaScript</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 95%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-html5"></i>
+        <h3>HTML5 & CSS3</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 92%;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-git-alt"></i>
+        <h3>Git & Version Control</h3>
+        <div class="progress-bar">
+          <div class="progress" style="width: 88%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2 class="section-title glitch" data-text="Projects">Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <div class="project-image">
+          <img src="assets/images/project1.webp" alt="Project 1 - Description" loading="lazy">
+          <div class="project-overlay">
+            <a href="https://github.com/FarooqArshad8029/Ibrahim-Smosa-Shop-Portfolio" class="btn" aria-label="View Project 1" target="_blank">View Project</a>
+          </div>
+        </div>
+        <h3>ISS Portfolio</h3>
+        <p> Beautifully crafted portfolio website for Ibrahim Samosa Shop showcasing its rich history, delicious offerings and commitment to quality. This website provides an engaging user experience with a clean UI, responsive design and optimized performance to attract customers and boost online presence.</p>
+        <div class="tech-stack">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-image">
+          <img src="assets/images/project2.webp" alt="Project 2 - Description" loading="lazy">
+          <div class="project-overlay">
+            <a href="https://github.com/FarooqArshad8029/Premium-Tech-Support-A-Hardware-Selling-And-Purchasing-Website-MERN-" class="btn" aria-label="View Project 2" target="_blank">View Project</a>
+          </div>
+        </div>
+        <h3>Premium Tech Support </h3>
+        <p>Premium Tech Support is a full-stack MERN web application that enables users to buy, sell and manage hardware products effortlessly. It features an intuitive user interface, secure authentication and a dynamic product catalog ensuring a seamless e-commerce experience.</p>
+        <div class="tech-stack">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>MongoDB</span>
+          <span>JavaScript</span>
+        </div>
+      </div>
+     
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2 class="section-title glitch" data-text="Contact_Me">Contact_Me</h2>
+    <div class="contact-content">
+      <form id="contact-form" role="form" aria-label="Contact Form">
+        <div class="input-container">
+          <input type="text" placeholder="Your Name" required aria-label="Your Name">
+          <span class="input-border"></span>
+        </div>
+        <div class="input-container">
+          <input type="email" placeholder="Your Email" required aria-label="Your Email">
+          <span class="input-border"></span>
+        </div>
+        <div class="input-container">
+          <textarea placeholder="Your Message" required aria-label="Your Message"></textarea>
+          <span class="input-border"></span>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="https://github.com/FarooqArshad8029" class="social-link" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/farooq-arshad-145777283/" class="social-link" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <!-- <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+        <!-- <a href="#" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Farooq Arshad . All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
