@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+
+
+@theme{
+    --font-primary-font : "Roboto", serif;
+    --font-secondary-font : "Raleway", serif;
+
+    --color-primary-color : #0DB75F;
+
+    --breakpoint-xs:450px;
+
+    --standard-width:1290px;
+}
